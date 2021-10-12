@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class EscolaJava {
+
+	public static void main(String[] args) {
+        
+		Scanner sc = new Scanner (System.in);
+		
+		int a,b;
+		double c , d , e , f , g , resultado;
+		
+		System.out.println("Digite um código de 1 a 5 ");
+		a = sc.nextInt();  // codigo
+		System.out.println("digite a quantidade desejada "  );
+		b = sc.nextInt(); // quantidade
+		
+		c = 4.00; // cachorro quente
+		d = 4.50; //x-salada
+		e = 5.00;  //x-bacon
+		f = 2.00;  // torrada simples
+		g = 1.50;	// refrigerante	
+		
+		resultado = c*b;
+		
+		
+		if (a==1) {
+			
+			System.out.println("TOTAL "+ resultado );
+		}
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

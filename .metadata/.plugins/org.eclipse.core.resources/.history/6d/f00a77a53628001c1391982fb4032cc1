@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ArquivoJava {
+
+	public static void main(String[] args) {
+        
+		Scanner sc = new Scanner (System.in);
+		
+		
+		
+		
+		System.out.println("Digite um número ");
+		double numero = sc.nextDouble();  // numero
+		
+
+				
+		if (numero == 0 ) {
+			System.out.println("PONTO ORIGEM" );
+		} 
+		
+		
+		sc.close();
+
+	}
+
+}
+
+

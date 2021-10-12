@@ -1,0 +1,35 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class EstudoJavaNovos {
+
+	public static void main(String[] args) {
+        
+		Locale.setDefault(Locale.US);
+        
+		Scanner sc = new Scanner (System.in);
+		
+		int a ;
+		double b, c, resultado;
+		
+		a = sc.nextInt();
+		b = sc.nextDouble();
+		c = sc.nextDouble();
+		
+		resultado = b*c ;
+		
+		System.out.println(" Número do funcionário: " + a);
+		System.out.println(" Horas trabalhadas: " + b);
+		System.out.println(" Valor que recebe por hora: " + c);
+		
+		
+		System.out.println(" Número do funcionário: " + a);
+		System.out.printf(" Salário: %.2f\n $" + c);
+		
+		
+		
+		sc.close();
+
+	}
+
+}

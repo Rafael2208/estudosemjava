@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class EstudosJavaNovo {
+
+	public static void main(String[] args) {
+        
+		Scanner sc = new Scanner (System.in);
+		
+		double x, y, resultado;
+		
+		x = sc.nextDouble();
+		y = 3.14159;
+		
+		resultado = (x*y) *2;
+		
+		System.out.println(" Valor da área: " + resultado);
+		
+		sc.close();
+
+	}
+
+}

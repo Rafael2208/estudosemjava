@@ -1,0 +1,22 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class EstudosDeJava {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc new Scanner (System.in);
+		int x;
+		int y;
+		x = sc.nextInt();
+		y = sc.nextInt();
+		soma = x+y;
+		
+		System.out.println("você digitou:"+ x + "mais:"+ y + "que somando ficou:" + soma);
+		
+		sc.close();
+
+	}
+
+}

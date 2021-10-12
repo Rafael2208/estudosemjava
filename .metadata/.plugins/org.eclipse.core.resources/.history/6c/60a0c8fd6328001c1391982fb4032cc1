@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class ArquivosJavas {
+
+	public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+		
+		
+		int x , resultado1, resfinal1;
+		
+		System.out.println("Digite um valor para saber se você é isento ou tem a pagar:");
+		 x = sc.nextInt();  // valor
+		 
+		 
+		 
+		
+		 
+		 
+		 resultado1 = ((x-2000)*8)/100; 
+				 //((1000*8)/100));
+		 
+		
+		 
+				 
+		resfinal1 =	resultado1 ;
+		
+		
+
+				
+		if (x <= 2000) {
+			System.out.println("ISENTO" );
+		}else if ( x > 2000 ) {    
+			
+			System.out.println("SEU VALOR A PAGAR:" + resfinal1);
+		} 
+		
+		
+		
+
+	}
+
+}

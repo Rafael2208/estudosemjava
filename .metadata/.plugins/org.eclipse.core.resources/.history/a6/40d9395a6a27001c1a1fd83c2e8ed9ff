@@ -1,0 +1,37 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class EstudosJavas {
+
+	public static void main(String[] args) {
+        
+		Locale.setDefault(Locale.US);
+        
+		Scanner sc = new Scanner (System.in);
+		
+		
+		double a, b , c , resultado, result;
+		
+		a = sc.nextDouble();
+		b = 3.14159;
+		c = sc.nextDouble();
+		
+		
+		
+		resultado = (a*c)/2;
+		result = (c*b)*c;
+		
+		
+		System.out.printf(" TRIANGULO: % .3f\n " , resultado);
+		System.out.println("                     " );
+		System.out.printf(" CIRCULO: % .2f\n " , resultado);
+		System.out.println("                     " );
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

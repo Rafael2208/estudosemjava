@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class ArquivoJava {
+
+	public static void main(String[] args) {
+        
+		Scanner sc = new Scanner (System.in);
+		
+		
+		double numero;
+		
+		System.out.println("Digite um número ");
+		numero = sc.nextDouble();  // numero
+		
+
+				
+		if (numero == 0.0) {
+			System.out.println("PONTO ORIGEM" );
+		} else if (numero==2) {
+			System.out.printf("TOTAL: % .2f\n" );
+		} else if (numero==3) {
+			System.out.printf("TOTAL: % .2f\n" );
+		} else if (numero==4) {
+			System.out.printf("TOTAL: % .2f\n" );
+		} else {
+			System.out.printf("TOTAL: % .2f\n");
+		}
+		
+		
+		sc.close();
+
+	}
+
+}
+
+
